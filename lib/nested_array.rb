@@ -29,8 +29,8 @@ def assembled_matrix
    assembled_matrix
   
   assembled_matrix [1][4][0][1][2][3],
- [0][4][3][2][1][0] 
-  ]
+                   [0][4][3][2][1][0] 
+  
   
 end
 
@@ -43,10 +43,9 @@ def sorted_matrix
 ] 
    assembled_matrix
   # However, this time, sort each internal array alphabetically by the first character
-  assembled_matrix [
-[1][4][0][2][1][3],
-[0][4][3][2][1][0]
-  ]
+  assembled_matrix[1][4][0][2][1][3],
+                  [0][4][3][2][1][0]
+  
 end
 
 def matrix_lookup(matrix, row, column)
