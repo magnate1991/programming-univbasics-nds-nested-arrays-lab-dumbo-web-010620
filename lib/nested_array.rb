@@ -44,9 +44,9 @@ def sorted_matrix
 ] 
    assembled_matrix
   # However, this time, sort each internal array alphabetically by the first character
-  assembled_matrix = [
-  CONVENTIONAL_PRODUCE[1][4][0][2][1][3],
- ORGANIC_PRODUCE[0][4][3][2][1][0]
+  assembled_matrix [
+[1][4][0][2][1][3],
+[0][4][3][2][1][0]
   ]
 end
 
@@ -54,6 +54,7 @@ def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
   matrix_lookup[0][1]
+  
 end
 
 def matrix_update(matrix, row, column, new_value)
